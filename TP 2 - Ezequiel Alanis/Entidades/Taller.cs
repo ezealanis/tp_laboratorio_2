@@ -115,12 +115,13 @@ namespace Entidades
                     }
 
                 }
+
+                if (flag == 0)
+                {
+                    taller.vehiculos.Add(vehiculo);
+                }
             }
 
-            if (flag == 0)
-            {
-                taller.vehiculos.Add(vehiculo);
-            }
 
             return taller;
         }
