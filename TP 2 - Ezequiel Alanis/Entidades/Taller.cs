@@ -103,13 +103,25 @@ namespace Entidades
         /// <returns></returns>
         public static Taller operator +(Taller taller, Vehiculo vehiculo)
         {
-            foreach (Vehiculo v in taller.vehiculos)
+            int flag = 0;
+
+            if (taller.vehiculos.Count < taller.espacioDisponible)
             {
-                if (v == vehiculo)
-                    return taller;
+                foreach (Vehiculo v in taller.vehiculos)
+                {
+                    if (v == vehiculo)
+                    {
+                        flag = 1;
+                    }
+
+                }
+
+                if (flag == 0)
+                {
+                    taller.vehiculos.Add(vehiculo);
+                }
             }
 
-            taller.vehiculos.Add(vehiculo);
             return taller;
         }
         /// <summary>
@@ -119,7 +131,7 @@ namespace Entidades
         /// <param name="vehiculo">Objeto a quitar</param>
         /// <returns></returns>
         public static Taller operator -(Taller taller, Vehiculo vehiculo)
-        {
+        {           
             foreach (Vehiculo v in taller.vehiculos)
             {
                 if (v == vehiculo)
