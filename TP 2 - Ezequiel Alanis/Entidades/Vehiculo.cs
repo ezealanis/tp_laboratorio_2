@@ -26,7 +26,9 @@ namespace Entidades
 
         public Vehiculo(string chasis, EMarca marca, ConsoleColor color)
         {
-
+            this.chasis = chasis;
+            this.marca = marca;
+            this.color = color;
         }
 
         /// <summary>
@@ -38,7 +40,7 @@ namespace Entidades
         /// Publica todos los datos del Vehiculo.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        public virtual string Mostrar()
         {
             return (string)this;
         }
@@ -47,9 +49,9 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"CHASIS: {p.chasis}\r\n");
-            sb.AppendLine($"MARCA : {p.marca.ToString()}\r\n");
-            sb.AppendLine($"COLOR : {p.color.ToString()}\r\n");
+            sb.AppendFormat("CHASIS: {0}\r\n", p.chasis);
+            sb.AppendFormat("MARCA : {0}\r\n", p.marca);
+            sb.AppendFormat("COLOR : {0}\r\n", p.color);
             sb.AppendLine("---------------------");
 
             return sb.ToString();
