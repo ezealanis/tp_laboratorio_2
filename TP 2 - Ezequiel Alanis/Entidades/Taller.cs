@@ -64,7 +64,7 @@ namespace Entidades
                 switch (tipo)
                 {
                     case ETipo.Suv:
-                        if(v is Suv)
+                        if (v is Suv)
                         {
                             sb.AppendLine(v.Mostrar());
                         }
@@ -115,11 +115,11 @@ namespace Entidades
                     }
 
                 }
+            }
 
-                if (flag == 0)
-                {
-                    taller.vehiculos.Add(vehiculo);
-                }
+            if (flag == 0)
+            {
+                taller.vehiculos.Add(vehiculo);
             }
 
             return taller;
@@ -131,7 +131,7 @@ namespace Entidades
         /// <param name="vehiculo">Objeto a quitar</param>
         /// <returns></returns>
         public static Taller operator -(Taller taller, Vehiculo vehiculo)
-        {           
+        {
             foreach (Vehiculo v in taller.vehiculos)
             {
                 if (v == vehiculo)
