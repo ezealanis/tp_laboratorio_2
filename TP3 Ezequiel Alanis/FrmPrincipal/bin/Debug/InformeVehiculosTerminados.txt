@@ -1,0 +1,29 @@
+Informacion del dia: 11/06/2021
+
+AUTO : 
+
+Patente: VKU 515
+Tipo de motor: Mediano
+Color: Verde
+Puertas: CuatroPuertas
+Ruedas: 4
+-----------------------------------
+
+MOTO : 
+
+Patente: PKT 874
+Tipo de motor: Mediano
+Color: Rojo
+Tipo de moto: Enduro
+Ruedas: 2
+-----------------------------------
+
+AUTO : 
+
+Patente: EMG 321
+Tipo de motor: Grande
+Color: Gris
+Puertas: DosPuertas
+Ruedas: 4
+-----------------------------------
+

@@ -1,0 +1,10 @@
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\bin\Debug\PruebaConsola.exe.config
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\bin\Debug\PruebaConsola.exe
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\bin\Debug\PruebaConsola.pdb
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\bin\Debug\Entidades.dll
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\bin\Debug\Entidades.pdb
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\obj\Debug\PruebaConsola.csprojAssemblyReference.cache
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\obj\Debug\PruebaConsola.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\obj\Debug\PruebaConsola.csproj.CopyComplete
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\obj\Debug\PruebaConsola.exe
+C:\Users\ezequ\source\repos\TP3 Ezequiel Alanis\PruebaConsola\obj\Debug\PruebaConsola.pdb
